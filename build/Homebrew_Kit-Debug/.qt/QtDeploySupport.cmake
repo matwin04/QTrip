@@ -58,7 +58,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "/Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/.qt/QtDeployTargets.cmake"
+    "/Users/frostie/Projects/QTrip/build/Homebrew_Kit-Debug/.qt/QtDeployTargets.cmake"
     "/Users/frostie/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)

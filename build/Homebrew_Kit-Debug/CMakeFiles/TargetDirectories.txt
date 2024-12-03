@@ -1,8 +1,3 @@
 /Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/CMakeFiles/QTrip.dir
 /Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/CMakeFiles/edit_cache.dir
 /Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/CMakeFiles/rebuild_cache.dir
-/Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/CMakeFiles/list_install_components.dir
-/Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/CMakeFiles/install.dir
-/Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/CMakeFiles/install/local.dir
-/Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/CMakeFiles/install/strip.dir
-/Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/CMakeFiles/QTrip_autogen.dir

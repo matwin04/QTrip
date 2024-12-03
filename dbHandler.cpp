@@ -1,4 +1,4 @@
-#include "dbhandler.h"
+#include "dbHandler.h"
 #include <QString>
 #include <QDebug>
 //Constructor
@@ -49,6 +49,6 @@ void dbHandler::setTripName(const QString &name)const{
     tripName = name;
 }
 // Get the current trip name
-void dbHandler:getTripName() const {
+void dbHandler::getTripName() const {
     return tripName;
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/frostie/projects/QTrip
+# Install script for directory: /Users/frostie/Projects/QTrip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,17 +35,6 @@ endif()
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/frostie/projects/QTrip/build/Homebrew_Kit-Debug/QTrip.app" USE_SOURCE_PERMISSIONS)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./QTrip.app/Contents/MacOS/QTrip" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./QTrip.app/Contents/MacOS/QTrip")
-    execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/frostie/Qt/6.8.0/macos/lib"
-      -add_rpath "@executable_path/../Frameworks"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./QTrip.app/Contents/MacOS/QTrip")
-  endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

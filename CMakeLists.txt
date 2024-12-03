@@ -17,12 +17,13 @@ qt6_wrap_ui(UI_HEADERS ui/mainWindow.ui)
 # Source files
 
 # Add executable
-add_executable(${PROJECT_NAME} ${SOURCES} ${UI_HEADERS} ${HEADERS})
+add_executable(${PROJECT_NAME} ${SOURCES} ${UI_HEADERS} ${HEADERS}
+    trip.h)
 
 # Link Qt libraries
 target_link_libraries(${PROJECT_NAME} Qt6::Core Qt6::Gui Qt6::Widgets Qt6::Sql)
 
 target_sources(QTrip
   PRIVATE
-    dbhandler.h dbhandler.cpp
+  dbHandler.h dbHandler.cpp
 )
